@@ -2,7 +2,7 @@ import requests
 import urllib
     
 charset = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-page = "h"
+page = ""
 passwd=""
     
 continuer=True
