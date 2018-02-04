@@ -2,7 +2,7 @@ import requests
 import urllib
     
 charset = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-page = "http://challenge01.root-me.org/web-serveur/ch26/?action=dir&search="
+page = "h"
 passwd=""
     
 continuer=True
