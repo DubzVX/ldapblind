@@ -3,14 +3,14 @@ It's my script in python LDAP Blind GET Injection
 
 ### How to use it: 
 ```sh
-chmod +x ldapblind.py
+chmod +x blindldap.py
 ```
 Thinking to change target and we can execute 
 
 ```sh
-./ldapblind.py
+./blindldap.py
 ```
 Or you can directly : 
 ```sh
-python ldapblind.py
+python blindldap.py
 ```
